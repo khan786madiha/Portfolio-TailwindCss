@@ -6,14 +6,31 @@ import Link from "next/link";
 const projects = [
 
   {
-    src:"/project1.jpeg",
-    alt:"Quiz app",
-    title:"Quiz App",
-    description:"A quiz app that allows users to answers the Quiz and win the task.",
-    link:"https://github.com/khan786madiha/project08_Quiz"
+    src: "/car2.webp",
+    alt: "Car website",
+    title: "MAK Cars Store",
+    description: "Discover your perfect ride with MAK Cars Store offering a wide range of premium vehicles for every driver.",
+    link: "https://github.com/khan786madiha/project08_Quiz"
   },
   {
-    src: "/project2.jpg", // Direct URL from public folder
+    src: "/nextjs15.png",
+    alt: "Nextjs.15",
+    title: "Nextjs 15",
+    description: "Stay informed with the latest insights and trends, powered by the fast and modern Next.js 15 framework..",
+    link: "https://github.com/khan786madiha/project08_Quiz"
+  },
+  {
+    src: "/Agentic.webp",
+    alt: "Agentic AI",
+    title: "Agentit AI",
+    description: "Agentit AI delivers cutting-edge, data-driven solutions that empower businesses with seamless automation, boosting productivity and innovation through intelligent systems.",
+    link: "https://github.com/khan786madiha/project08_Quiz"
+  },
+
+
+
+  {
+    src: "/blogging.png", // Direct URL from public folder
     alt: "Blog website",
     title: "Blog Website",
     description: "Dive into a world of insights and stories with our blog, where every post sparks inspiration and conversation.",
@@ -39,7 +56,14 @@ const projects = [
     title: "E-commerce Website",
     description: "A fully functional e-commerce website that allows users to browse and purchase products ",
     link: "https://github.com/khan786madiha/project09_ecommerce"
-  }
+  },
+  {
+    src: "/project1.jpeg",
+    alt: "Quiz app",
+    title: "Quiz App",
+    description: "A quiz app that allows users to answers the Quiz and win the task.",
+    link: "https://github.com/khan786madiha/project08_Quiz"
+  },
 ];
 
 const Project = () => {
@@ -58,7 +82,7 @@ const Project = () => {
               className="p-4 lg:w-1/4 md:w-1/2"
               data-aos="flip-right" data-aos-duration="2000"
             >
-              <div className="flex flex-col items-center text-center border border-gray-700 rounded-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl relative">
+              <div className="flex flex-col items-center text-center border border-purple-700 rounded-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl relative">
                 <div className="relative h-[200px] w-full overflow-hidden rounded-t-lg transition-transform transform hover:scale-110">
                   <Image
                     src={project.src}  // URL path from public folder
@@ -71,7 +95,7 @@ const Project = () => {
                 </div>
                 <div className="w-full p-4 bg-gray-800 h-[220px]">
                   <Link href={project.link}>
-                    <h1 className="text-2xl font-serif text-pink-600 hover:uppercase hover:text-white transition-colors duration-300 cursor-pointer mb-3">
+                    <h1 className="text-2xl font-serif text-yellow-600 hover:uppercase hover:text-white transition-colors duration-300 cursor-pointer mb-3">
                       {project.title}
                     </h1>
                   </Link>
