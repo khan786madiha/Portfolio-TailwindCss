@@ -9,8 +9,8 @@ const projects = [
     src: "/resume-builder.png",
     alt: "Resume-Builder",
     title: "MAK Resume-Builder",
-    description: "Discover your perfect ride with MAK Cars Store offering a wide range of premium vehicles for every driver.",
-    link: "https://github.com/khan786madiha/project08_Quiz"
+    description: "A dynamic, easy-to-use MAK-resume builder with customizable templates to help professionals create standout resumes effortlessly.",
+    link: "https://github.com/khan786madiha/Hachathon-mileston4"
   },
   {
     src: "/nextjs15.png",
