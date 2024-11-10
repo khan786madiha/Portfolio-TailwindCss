@@ -10,7 +10,7 @@ const projects = [
     alt: "Resume-Builder",
     title: "MAK Resume-Builder",
     description: "A dynamic, easy-to-use MAK-resume builder with customizable templates to help professionals create standout resumes effortlessly.",
-    link: "https://github.com/khan786madiha/Hachathon-mileston4"
+    link: "https://hachathon-mileston-4.vercel.app/create-resume.html"
   },
   {
     src: "/nextjs15.png",
