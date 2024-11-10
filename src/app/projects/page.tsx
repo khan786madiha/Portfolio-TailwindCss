@@ -6,9 +6,9 @@ import Link from "next/link";
 const projects = [
 
   {
-    src: "/car2.webp",
-    alt: "Car website",
-    title: "MAK Cars Store",
+    src: "/resume-builder.png",
+    alt: "Resume-Builder",
+    title: "MAK Resume-Builder",
     description: "Discover your perfect ride with MAK Cars Store offering a wide range of premium vehicles for every driver.",
     link: "https://github.com/khan786madiha/project08_Quiz"
   },
